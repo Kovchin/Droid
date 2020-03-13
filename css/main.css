@@ -1,0 +1,533 @@
+body {
+    margin: 0 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+    color: #2A75B3;
+}
+
+th {
+    color: #2A75B3;
+}
+
+.obj_name {
+    width: 250px;
+}
+
+.obj_address {
+    width: 750px;
+    font-size: 12px;
+}
+
+.month {
+    border-collapse: collapse;
+}
+
+.month th {
+    color: black;
+}
+
+td.space {
+    height: 30px;
+}
+
+tr.nobr td {
+    border-style: hidden;
+}
+
+tr.nobr_bt td {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+tr.nobr_tp td {
+    border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+
+.month td, th {
+    padding: 5px;
+}
+
+.month td.center {
+    text-align: center;
+}
+
+.month td.bold {
+    font-weight: bold;
+}
+
+.month th {
+    background-color: #B3915D;
+}
+
+.month tr.shad td {
+    background-color: #FAF0E1;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.menu_Manage a, .menu_ERG a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+    color: #2A75B3;
+    transition: 500ms;
+    border: 3px solid white;
+}
+
+a:hover{
+border: 3px solid #2A75B3;
+background-color: white;
+}
+
+.menu_ERG, .menu_Manage{
+    display: flex;
+    justify-content: left;
+}
+
+a.active {
+   background-color: #FFC770;
+}
+
+.manag_title{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.manag_Record{
+    margin: 5px 20px 0px ;
+}
+
+.manag_Record a, .manag_record td, .manag_record{
+    text-decoration: none;
+    color: #2A75B3;
+    font-size: 16px;
+}
+
+.spisok{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.DivFooter{
+    margin: 50px 0 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    background-color: #D9EDFC;
+	color: #2A75B3;
+}
+
+.DivFooter p{
+    margin: 0 auto;
+}
+
+.signs input {
+    width: 400px;
+}
+
+.wide_signs {
+    width: 800px;
+}
+
+div.menu_ERG {
+    padding: 4px;
+}
+
+.menu_ERG a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 2px;
+    margin: 0;
+}
+
+div.banner {
+    height: 160px;
+    background-color: #D9EDFC;
+}
+
+div.logo {
+    position: absolute;
+    top: 50px;
+    margin: 5px;
+}
+
+.logo p{
+    margin-left: 40px;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+    color: #2A75B3;
+    
+}
+
+.menu_Manage {
+    float: right;
+    border: 3px solid white;
+    padding: 5px;
+    background-color: #2A75B3;
+}
+
+.menu_Manage li{
+    height: 25px;
+    list-style-type: none;
+    color: #FFC770;
+    text-align: right;
+}
+
+.menu_Manage a {
+    border: none;
+    font-size: 15px;
+    color: #FAF0E1;
+}
+
+.menu_Manage a:hover {
+    background-color: #FFC770;
+    color: #2A75B3;
+}
+
+.schedule {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.schedule a {
+    padding: 10px;
+    background-color: #B3915D;
+    color: #FAF0E1;
+    border: 3px solid white;
+    text-decoration: none;
+}
+
+.schedule a:hover {
+    border: 3px solid #2A75B3;
+}
+
+.blank {
+    display: inline-block;
+    width: 10px;
+    height: 30px;
+    background: #B3915D;
+    position: relative;
+    top: 7px;
+    border-top: 6px solid white;
+}
+
+table.erg {
+    margin: 10px;
+}
+
+select {
+    padding: 3px;
+    border: 1px solid #B3915D;
+    color: #2A75B3;
+}
+
+input[type="date"] {
+    padding: 1px;
+    font-size: 20px;
+    border: 1px solid #B3915D;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 3px;
+    font-size: 16px;
+    background-color: white;
+    color: #2A75B3;
+    border-top: 2px solid #B3915D;
+    border-left: 2px solid #B3915D;
+    border-bottom: 2px solid #FAF0E1;
+    border-right: 2px solid #FAF0E1;
+}
+
+input[type="submit"], input[type="button"] {
+    font-size: 16px;
+    background-color: #2A75B3;
+    color: white;
+    font-weight: 600;
+    padding: 3px;
+    border-top: 2px solid #D9EDFC;
+    border-left: 2px solid #D9EDFC;
+    border-bottom: 2px solid #0A5593;
+    border-right: 2px solid #0A5593;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #3C87C5;
+}
+
+input[type="submit"]:active, input[type="button"]:active {
+    border-bottom: 2px solid #D9EDFC;
+    border-right: 2px solid #D9EDFC;
+    border-top: 2px solid #0A5593;
+    border-left: 2px solid #0A5593;
+}
+
+.erg input[type="text"] {
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 280px;
+}
+
+.pass_change input[type="password"], .pass_change input[type="text"] {
+    width: 150px;
+}
+
+.erg td {
+    text-align: center;
+}
+
+input.obj_id {
+    width: 50px;
+}
+
+.another {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.another:hover {
+    border: none;
+}
+
+.obj_title {
+    margin: 20px;
+    font-size: 60px;
+    color: #B3915D;
+}
+
+.eqp_name, .eqp_short_name {
+    width: 300px;
+}
+
+.eqp_cat, eqp_qty {
+    width: 90px;
+}
+
+.eqp th {
+    color: #2A75B3;
+}
+
+.choose {
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.choose, .choose select {
+    font-size: 17px;
+}
+
+.month td, month th {
+    color: black;
+}
+
+.download {
+    padding: 20px;
+    margin: 10px;
+}
+
+.download a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #FFC770;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.download a:hover {
+    border: none;
+    background-color: #DFA750;
+}
+
+.edit_month th, .year th, .edit_month th a{
+    color: white;
+    background-color: #B3915D;
+    text-decoration: none;
+}
+
+.edit_month th a:hover{
+    border: none;
+}
+.edit_month tr:nth-child(2n), .edit_month tr:nth-child(2n) input[type="date"] {
+    background-color: #FAF0E1;
+}
+
+.small1_th {
+    font-size: 14px;
+}
+
+.small2_th {
+    font-size: 12px;
+}
+
+.year td {
+    padding: 3px 5px;
+}
+
+.year tr:nth-child(2n) {
+    background-color: #FAF0E1;
+}
+
+.year td:nth-child(6n+3), .year td:nth-child(6n+4), .year td:nth-child(6n+5)  {
+    background-color: #FFC770;
+}
+
+.year tr:hover td{
+    background-color: #B3915D;
+    color: white;
+}
+
+.login {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.login input {
+    height: 24px;
+}
+
+.login input[type="text"] {
+    width: 150px;
+}
+
+#log {
+    margin-top: 20px;
+}
+
+#log td {
+    color: #C00;
+}
+
+input[name="year_close"] {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 17px;
+}
+
+td.erg_name {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 4px;
+    padding-top: 15px;
+    color: #B3915D;
+}
+
+td.reports {
+    padding: 3px;
+}
+
+.rep_check {
+    text-align: center;
+}
+
+.highlight:hover {
+    background-color: #FFC770;
+}
+
+.yes td {
+    background-color: #8f8;
+    color: black;
+}
+
+.yes td:hover {
+    background-color: #8f8;
+}
+
+td.check {
+    padding: 0 10px;
+    font-weight: 600;
+    color: red;
+}
+
+.instruction {
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+    height: 0;
+    width: 0;
+}
+
+.instruction a {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1360px) {
+    .menu_ERG a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    
+    .menu_Manage {
+        display: none;
+    }
+    
+    .logo, .instruction {
+        display: none;
+    }
+    
+    .menu_ERG {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.banner {
+        height: auto;
+    }
+    
+    .schedule {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .schedule a {
+        display: block;
+    }
+    
+    .blank {
+        top: -2px;
+        height: 10px;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo, .instruction {
+        display: none;
+    }
+    
+    .schedule {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    td, input[type="date"] {
+        font-size: 11px;
+    }
+    
+    .choose {
+        text-align: center;
+    }
+    
+    .edit_month td, .year td {
+        font-size: 11px;
+    }
+}
